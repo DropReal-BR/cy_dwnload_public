@@ -12,12 +12,12 @@ Deve ser adicionado no código os seguintes paramêtros:
 
 Para compilar o código em um arquivo .exe você primeiramente precisa realizar a instalação do serviço PyInstaller com o comando:
   
-  <ip install pyinstaller>
+  ip install pyinstaller
   
 Realize o download do arquivo icone oficial diposnível neste repositório: drop.ico
 
 Em seguida execute o comando para compilar
 
-  <pyinstaller -F --icon-dropico CyInstall.py>  
+  pyinstaller -F --icon-dropico CyInstall.py
 
 Este comando deve ser executado em uma pasta raíz do sistema (não em um diretório do One Drive por exemplo)
