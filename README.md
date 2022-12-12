@@ -10,14 +10,17 @@ Deve ser adicionado no código os seguintes paramêtros:
 
 # Compilando em .exe
 
-Para compilar o código em um arquivo .exe você primeiramente precisa realizar a instalação do serviço PyInstaller com o comando:
+  ### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina a biblioteca PyInstaller, para isso no cmd execute o seguinte comando
+
+```bash
+  $ ip install pyinstaller
+```
+Realize o download do arquivo icone oficial disponível neste repositório: drop.ico
+
+Em seguida, para realizar a compilação, execute o seguinte comando
   
-  ip install pyinstaller
-  
-Realize o download do arquivo icone oficial diposnível neste repositório: drop.ico
-
-Em seguida execute o comando para compilar
-
-  pyinstaller -F --icon-dropico CyInstall.py
-
-Este comando deve ser executado em uma pasta raíz do sistema (não em um diretório do One Drive por exemplo)
+```bash
+  $ pyinstaller -F --icon-dropico CyInstall.py #Este comando deve ser executado em uma pasta raíz do sistema (não em um diretório do One Drive por exemplo)
+```
